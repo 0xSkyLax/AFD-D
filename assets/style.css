@@ -1,0 +1,451 @@
+html, html body {
+    overflow-x: hidden;
+    width: 100%;
+}
+body p, body ul li a, body h3, body h4{
+    color: #000;
+    font-family:
+      Poppins,
+      -apple-system,
+      Roboto,
+      Helvetica,
+      sans-serif;
+}
+
+#nav-section .navbar-text {
+    color: #000;
+    font-family: 'Sora', sans-serif;
+    font-weight: 600;
+}
+#nav-section ul li a {
+    color: #474650;
+}
+#nav-section ul li a:hover {
+    color: #000;
+}
+#nav-section .nav-button {
+    font-size: 15px;
+    background-color: #000;
+    border-radius: 30px;
+}
+
+#hero-section {
+    background-image: url('images/Gradient\ Backgroud.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 3%;
+}
+
+#hero-section h2 {
+    line-height: normal;
+    font-weight: bold;
+    max-width: 600px;
+    text-align: center;
+    color: #003333;
+    font-family: Sora, sans-serif;
+    font-weight: 600;
+}
+
+#hero-section p {
+    line-height: 35px;
+    color: #474650;
+    text-align: center;
+}
+
+#hero-section #hero-button {
+    border-radius: 30px;
+    font-weight: bold;
+    color: #000;
+    border: 2px solid #000;
+}
+#squigly {
+    z-index: 0;
+    margin-left: 60%;
+    top: -25%;
+}
+
+#hero-section #hero-beef {
+    margin-top: 10%;
+}
+
+#laptop {
+    border-width: 15px 15px 0px 15px;
+    border-color: #000;
+    border-style: solid;
+    border-radius: 20px 20px 0px 0px;
+}
+
+#laptop img {
+    border-radius: 5px 5px 0px 0px;
+    max-height: 75vh;
+    object-fit: cover;
+}
+
+#about-section {
+    padding: 125px 0px;
+    background-color: #fff;
+    background-image: url('images/About\ Gradient\ Backgroud.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#about-section h2 {
+    color: #000;
+    text-align: center;
+    font-weight: 700;
+}
+
+#about-section p {
+    max-width: 480px;
+}
+#about-section .flex-lg-row {
+    gap: 50px;
+}
+
+#about-section img {
+    border-radius: 15px;
+    height: 100%;
+}
+
+
+
+#service-section {
+    background-image: url('images/Services\ Gradient\ Backgroud.svg');
+    background-repeat: no-repeat;
+    padding-bottom: 125px;
+}
+
+#service-section .row {
+    max-width: 1160px;
+    gap: 40px;
+}
+
+#service-section img {
+    width: 60px;
+    height: 60px;
+}
+
+#service-section #shine-w {
+    top: -35px;
+    left: -40px;
+    z-index: 0;
+}
+
+#service-section .card {
+    border: none;
+    border-radius: 15px;
+    margin: 0;
+}
+
+#service-card-1 {
+    background-color: #000;
+    color: #fff;
+    width: 760px;
+    height: 360px;
+}
+
+#service-card-1 p {
+    text-align: left;
+    color: white;
+    max-width: 550px;
+}
+
+#service-card-1 h3 {
+    font-weight: bold;
+    color: #fff;
+}
+
+#service-section .service-cards {
+    width: 360px;
+    height: 360px;
+}
+
+#service-section .service-cards h3 {
+    line-height: 40px;
+    font-weight: 600;
+    color: #000;
+}
+
+#service-section .service-cards p {
+    font-size: 17px;
+    line-height: 28px;
+    align-self: baseline;
+    max-width: 280px;
+    color: #555;
+    font-family: 'Inter', sans-serif;
+}
+
+
+#step-section {
+    background-color: #000;
+    background-image: url('images/Steps\ Gradient\ Backgroud.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0px;
+    font-family: 'Inter', sans-serif;
+}
+
+#step-text-header {
+    max-width: 900px;
+}
+
+#step-text-header h2 {
+    color: #fff;
+    font-weight: 700;
+}
+
+#step-text-header p {
+    color: #ccc;
+    font-family: 'Inter', sans-serif;
+}
+
+#step-section #step-steps {
+    gap: 10px;
+}
+
+#step-section .card {
+    background-color: #111;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+}
+
+#step-section .card p {
+    font-weight: 500;
+    text-align: left;
+    color: #aaa;
+}
+
+#step-section .step-cards {
+    width: 120px;
+    height: 400px;
+    text-orientation: mixed;
+    align-items: center;
+}
+
+#step-normal-card {
+    max-width: 360px;
+    height: 400px;
+}
+
+#step-section .step-cards h3 {
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    font-style: italic;
+}
+
+#step-section .step-cards p {
+    max-width: 260px;
+    font-weight: 500;
+    text-align: left;
+    writing-mode: vertical-rl;
+    color: #aaa;
+}
+
+#step-normal-card h3 {
+    font-weight: 700;
+    color: #fff;
+    font-style: italic;
+}
+
+#step-normal-card h4 {
+    font-weight: 700;
+    text-align: left;
+    color: #fff;
+}
+
+#step-normal-card p {
+    writing-mode: horizontal-tb;
+}
+
+
+
+
+#comparison-section {
+    padding: 100px 0px;
+    background-image: url('images/Why\ Gradient\ Backgroud\ -\ Top.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#comparison-section .flex-lg-row {
+    background-image: url('images/Why\ Gradient\ Backgroud\ -\ Middle.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#comparison-section #comparison-header {
+    margin-bottom: 75px;
+}
+
+#comparison-section h2 {
+    font-weight: 700;
+    font-family: Sora, san-serif;
+    text-align: center;
+}
+
+#comparison-section p {
+    max-width: 400px;
+}
+
+#comparison-section h3 {
+    font-weight: 700;
+}
+
+#comparison-section h4 {
+    font-weight: 700;
+    color: #000;
+}
+
+#comparison-section .card {
+    background: #fff;
+    border-radius: 12px;
+    font-family: 'Inter', sans-serif;
+}
+
+#comparison-section li {
+    font-weight: 500;
+    list-style: none;
+}
+
+#comparison-section #shine-b {
+    top: -15px;
+    left: 5px;
+    z-index: 0;
+    width: 48px;
+    height: 48px;
+}
+
+#comparison-section #vs {
+    width: 100px;
+    height: 100px;
+    z-index: 2;
+}
+
+#comparison-section #underline {
+    z-index: 2;
+}
+
+@media (max-width: 992px) {
+    #comparison-section #vs {
+        margin-top: 0px;
+    }    
+    #first-compare-card {
+        margin-top: 350px;
+    }
+}
+
+
+
+
+#testimonial-section {
+    background-color: #000;
+    background-image: url('images/Testimonials\ Gradient\ Backgroud.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0%;
+}
+
+#testimonial-section #testimonial-box-2 {
+    padding: 60px 40px;
+    border-radius: 15px;
+    background-color: #212121;
+}
+
+#testimonial-section h2{
+    font-weight: 700;
+    color: #fff;
+    font-family: 'Sora', sans-serif;
+}
+
+#testimonial-section #testimonial-text {
+    background-color: #141414;
+    border-radius: 12px;
+}
+
+#stars {
+    color: #FF9345;
+}
+
+#testimonial-text p {
+    max-width: 520px;
+    color: #FFFFFF;
+    font-family: 'Inter', san-serif;
+}
+
+#testimonial-text #client {
+    font-weight: bold;
+}
+
+#testimonial-section #vis-invis {
+    height: 360px;
+    width: 360px;
+    border-radius: 12px;
+}
+
+#testimonial-section #invis-vis {
+    height: 48px;
+    width: 48px;
+    border-radius: 12px;
+    right: 20px;
+    bottom: 20px;
+}
+
+@media (max-width: 450px) {
+    #testimonial-section #testimonial-text p {
+        font-size: 10px;
+    }
+}
+
+
+
+#footer-section {
+    padding: 5% 0%;
+}
+#footer-section h3 {
+    font-weight: 700;
+    font-family: Sora, san-serif;
+}
+#footer-section h4 {
+    font-weight: 500;
+    font-family: 'Inter', san-serif;
+}
+
+#footer-section p {
+    font-family: 'Inter', san-serif;
+}
+#footer-section .social-icons img {
+    width: 40px;
+    height: 40px;
+}
+#footer-section .footer-column ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: #000;
+    font-family: 'Inter', san-serif;
+}
+#footer-section #footer-contact{
+    gap: 10px;
+}
+#footer-section #footer-contact a{
+    text-decoration: none;
+    color: #000;
+    font-family: 'Inter', san-serif;
+}
+#footer-section .nav-button {
+    font-size: 15px;
+    background-color: #000;
+    border-radius: 30px;
+}
+#footer-grey {
+    background: #aaaaaa;
+    width: 80vw;
+    height: 25px;
+    border-radius: 12px 12px 0px 0px;
+}
